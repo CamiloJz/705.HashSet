@@ -14,7 +14,7 @@ private:
     unordered_map<int, unordered_set<int>> following;     // Mapa para almacenar los usuarios que sigue cada usuario
 
 public:
-    Twitter() {}  // Constructor vacío que inicializa la clase
+    Twitter() {}  // Constructor vacío que inicializa la clase.
 
     // Método para publicar un tweet
     void postTweet(int userId, int tweetId) {
