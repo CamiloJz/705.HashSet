@@ -10,7 +10,7 @@ using namespace std;
 class Twitter {
 private:
     int timestamp = 0;  // Variable para simular el tiempo de los tweets.
-    unordered_map<int, deque<pair<int, int>>> userTweets; // Mapa para almacenar tweets de cada usuario
+    unordered_map<int, deque<pair<int, int>>> userTweets; // Mapa para almacenar tweets de cada usuario.
     unordered_map<int, unordered_set<int>> following;     // Mapa. para almacenar los usuarios que sigue cada usuario
 
 public:
